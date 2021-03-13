@@ -1,0 +1,209 @@
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+/*    vertical-align: middle;*/
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background: #000;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #50cbf5;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container.demo-1 {
+	height: 100%;
+	position: absolute;
+    
+    min-width: 300px;
+    min-height: 700px;
+}
+
+.clr {
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+.main {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container > header,
+.content-wrapper {
+	padding: 30px;
+	width: 80%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.content-wrapper p{
+	padding-top: 30px;
+	line-height: 26px;
+}
+
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0;
+	font-weight: 700;
+	color: #333;
+	float: left;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+/* Header Style */
+.codrops-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+.codrops-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+/* Demo Buttons Style */
+.codrops-left {
+	float: left;
+	left: 30px;
+}
+
+.codrops-right {
+	float: right;
+	right: 30px;
+}
+
+.codrops-demos {
+	padding-top: 10px;
+}
+
+.demo-1 .codrops-demos {
+	position: absolute;
+	z-index: 2000;
+	/*top: 30px;*/
+    max-width: 1000px;
+}
+
+.codrops-demos a {
+    display: inline-block;
+    margin: 10px;
+    color: #333;
+    font-weight: 700;
+    line-height: 30px;
+    border-bottom: 4px solid transparent;
+}
+
+.codrops-demos a:hover {
+	/*color: #90cbf5;
+	border-color: #90cbf5;*/
+}
+
+.codrops-demos-white a {
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    border-bottom: 4px solid transparent;
+}
+
+.codrops-demos a.demo,
+.codrops-demos a.demo:hover {
+	color: #555;
+}
+
+.codrops-demos a.demo-white,
+.codrops-demos a.demo-white:hover {
+	color: #ddd;
+}
+
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+	color: #555;
+	border-color: #aaa;
+}
+
+.codrops-demos a.current-demo-white,
+.codrops-demos a.current-demo-white:hover {
+	color: #ddd;
+	border-color: #aaa;
+}
+
+/*
+     FILE ARCHIVED ON 18:32:55 Feb 09, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:35:11 Mar 13, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 122.913 (3)
+  esindex: 0.006
+  captures_list: 165.004
+  CDXLines.iter: 16.764 (3)
+  PetaboxLoader3.datanode: 236.459 (4)
+  exclusion.robots: 0.171
+  exclusion.robots.policy: 0.16
+  RedisCDXSource: 21.118
+  PetaboxLoader3.resolve: 57.713
+  load_resource: 179.984
+*/
